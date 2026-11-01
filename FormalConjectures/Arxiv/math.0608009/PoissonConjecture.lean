@@ -120,7 +120,7 @@ zero is an automorphism. This is **false**: the Jacobian conjecture fails in dim
 lift of the counterexample map).
 -/
 @[category research solved, AMS 14 17, formal_proof using lean4 at
-"https://github.com/zblore/fc-poisson-2/blob/d464ff4915221ec26759e5c10fbf9c7853fc5ef9/Poisson2/FormalTarget.lean#L41-L43"]
+  "https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000002"]
 theorem poisson_conjecture : ¬ ∀ n, PoissonConjectureFor K n := by
   sorry
 
@@ -150,7 +150,7 @@ propagates falsity upwards: $\lnot PC_2$ gives $\lnot JC_4$, already known from 
 $DC_2$, $JC_2$ (Keller's problem), $PC_1$ and $DC_1$ all remain open.
 -/
 @[category research solved, AMS 14 17, formal_proof using lean4 at
-"https://github.com/zblore/fc-poisson-2/blob/d464ff4915221ec26759e5c10fbf9c7853fc5ef9/Poisson2/FormalTarget.lean#L26-L27"]
+  "https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000002"]
 theorem poisson_conjecture.variants.dimension_two : ¬ PoissonConjectureFor K 2 := by
   sorry
 
@@ -164,7 +164,7 @@ injective on points — e.g. it identifies $(0, 6, -142, 0, 0, 0)$ and $(1, 0, 2
 as it implies the Jacobian conjecture in dimension $3$, contradicting [Alp26].
 -/
 @[category research solved, AMS 14 17, formal_proof using lean4 at
-"https://github.com/zblore/fc-poisson-2/blob/d464ff4915221ec26759e5c10fbf9c7853fc5ef9/Poisson2/FormalTarget.lean#L37-L38"]
+  "https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000002"]
 theorem poisson_conjecture.variants.dimension_three : ¬ PoissonConjectureFor K 3 := by
   sorry
 
@@ -173,7 +173,7 @@ The Poisson Conjecture is false in every dimension $n ≥ 2$, by padding the dim
 counterexample of [Lon26] with identity canonical pairs.
 -/
 @[category research solved, AMS 14 17, formal_proof using lean4 at
-"https://github.com/zblore/fc-poisson-2/blob/d464ff4915221ec26759e5c10fbf9c7853fc5ef9/Poisson2/FormalTarget.lean#L30-L32"]
+  "https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-01-000002"]
 theorem poisson_conjecture.variants.dimension_ge_two (n : ℕ) (hn : 2 ≤ n) :
     ¬ PoissonConjectureFor K n := by
   sorry
